@@ -1,0 +1,38 @@
+.about-container{
+    margin: 64px 0px;
+}
+
+.about-header{
+    margin: 32px 0px;
+    text-align: center;
+}
+
+.about-para{
+    margin: 32px 0px;
+    text-align: center;
+}
+
+.about-para div{
+    width: 80%;
+
+}
+
+.resume-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button{
+    padding: 12px 32px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    transition: ease;
+    transition-delay: 0.0s;
+    transition-duration: 0.3s;
+}
+
+.resume-button:hover{
+    transform: scale(1.1);
+}

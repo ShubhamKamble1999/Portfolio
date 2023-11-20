@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("../../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
+.header-text , .description, .header-text-suffix{
+    color: white;
+}
+
+.landing-row{
+    height: 400px;
+}
+
+.left-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-container{
+    height: 80vh;
+    background-color: #212121;
+    /* background-color: yellow; */
+    padding: 64px 0px;
+}
+
+.header-text{
+    font-family: 'Rubik';
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.header-text-suffix{
+    padding: 0px 12px;
+    font-size: 28px;
+}
+
+.header-text-suffix::after{
+    content: "";
+    border-right: 1px solid white;
+}
+
+.description{
+    font-family: 'Manrope';
+    font-size: 20px;
+    padding: 16px 0px;
+}
+
+
+.icons-block{
+    padding: 8px 0px;
+}
+
+.image-block{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.icon-img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin: 0px 16px;
+}
+
+
+.right-col{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    height: 80%;
+}

@@ -1,0 +1,10 @@
+.popUp{
+    width: 250px;
+    height: auto;
+    border: 2px solid orange;
+    background-color: olivedrab;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

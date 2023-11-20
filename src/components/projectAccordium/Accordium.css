@@ -1,0 +1,9 @@
+.accordium-width{
+    width: 80vw;
+}
+
+.left-accor{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+}
