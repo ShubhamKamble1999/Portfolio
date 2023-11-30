@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
 .accordium-width{
     width: 80vw;
 }
@@ -6,4 +16,16 @@
     height: 200px;
     width: 300px;
     background-color: yellow;
+}
+
+.project-container{
+    margin: 64px 0px;
+}
+
+.project-heading span{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
 }

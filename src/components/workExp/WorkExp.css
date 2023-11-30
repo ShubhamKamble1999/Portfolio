@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
+.main{
+    margin: 64px 0px;
+}
+
+.point-image{
+    height: 20px;
+    width: 30px;
+}
+
+.exp-container span{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.exp-text-block{
+    margin: 16px 32px;
+    padding: 32px;
+    background-color: rgb(157, 219, 253);
+}
+
+.exp-text-block p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-header{
+    font-size: 20px;
+    font-weight: 600;
+}

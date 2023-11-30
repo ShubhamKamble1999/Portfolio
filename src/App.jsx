@@ -8,6 +8,9 @@ import { AboutUs } from './components/AboutUs/aboutUs'
 import { MyProject } from './components/myProjects/MyProject'
 import PopUp from './components/popUp/PopUp'
 import Accordium from './components/projectAccordium/accordium'
+import { Skills } from './components/skills/Skills'
+import { WorkExp } from './components/workExp/WorkExp'
+import { Footer } from './components/footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +34,7 @@ function App() {
 
   return (
     <>
-      {
+      {/* {
         welcomePopUp &&
         <PopUp >
           <div>
@@ -40,15 +43,13 @@ function App() {
           </div>
         </PopUp>
       }
-      <NavBar />
+      <NavBar /> */}
       <Landing />
       <AboutUs />
-      <div className="project-heading">
-        <h1> My Project </h1>
-      </div>
-      {/* <MyProject /> */}
+      <Skills />
       <Accordium />
-
+      <WorkExp />
+      <Footer />
     </>
   )
 }

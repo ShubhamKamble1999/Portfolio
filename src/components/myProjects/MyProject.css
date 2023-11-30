@@ -1,10 +1,28 @@
-.project-container{
-    margin: 64px 0px;
+@font-face {
+    font-family: "Raleway";
+    src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format('truetype');
 }
 
-.project-heading{
+@font-face {
+    font-family: "Manrope";
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
+/* .project-container{
+    margin: 64px 0px;
+} */
+
+/* .project-heading{
     margin: 32px 0px;
     text-align: center;
+} */
+
+.project-heading span{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .card-body{

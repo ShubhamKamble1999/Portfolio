@@ -28,42 +28,46 @@ const Accordium = () => {
 
 
     return (
-
-        <div className='d-flex justify-content-center m-4'>
-            <div className="accordion accordium-width" id="accordionExample">
-                {cardData.map((element, index) => (
-                    <div className="accordion-item" key={index}>
-                        <h2 className="accordion-header">
-                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls={`collapse${index}`}>
-                                {element.title}
-                            </button>
-                        </h2>
-                        <div
-                            id={`collapse${index}`}
-                            className={`accordion-collapse accordium-width collapse ${index === 0 ? 'show' : ''}`}
-                            data-bs-parent="#accordionExample">
-                            {console.log("This is index :: ", index)}
-                            <div className="accordion-body">
-                                <div className="row">
-                                    <div className="col-lg-4">
-                                        <div className="left-accor"></div>
-                                    </div>
-                                    <div className="col-lg-8">
-                                        <div><strong>{element.title}</strong></div>
-                                        <div>{element.description}</div>
-                                        <div><a href={element.gitLink}>{element.gitLink}</a></div>
+        <>
+            <div className="container">
+                <div className="project-container">
+                    <div className="project-heading">
+                        <span> My Projects </span>
+                    </div>
+                    <div className='d-flex justify-content-center m-4'>
+                        <div className="accordion accordium-width" id="accordionExample">
+                            {cardData.map((element, index) => (
+                                <div className="accordion-item" key={index}>
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls={`collapse${index}`}>
+                                            {element.title}
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id={`collapse${index}`}
+                                        className={`accordion-collapse accordium-width collapse ${index === 0 ? 'show' : ''}`}
+                                        data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+                                            <div className="row">
+                                                <div className="col-lg-4">
+                                                    <div className="left-accor"></div>
+                                                </div>
+                                                <div className="col-lg-8">
+                                                    <div><strong>{element.title}</strong></div>
+                                                    <div>{element.description}</div>
+                                                    <div><a href={element.gitLink}>{element.gitLink}</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
-                ))}
-
-
+                </div>
             </div>
+        </>
 
-
-        </div>
     )
 }
 

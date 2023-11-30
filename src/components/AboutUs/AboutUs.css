@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
 .about-container{
     margin: 64px 0px;
 }
@@ -24,10 +34,10 @@
 
 .resume-button{
     padding: 12px 32px;
-    background-color: greenyellow;
+    background-color: orangered;
     color: black;
     border: none;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     transition: ease;
     transition-delay: 0.0s;
     transition-duration: 0.3s;
@@ -35,4 +45,44 @@
 
 .resume-button:hover{
     transform: scale(1.1);
+}
+
+.about-row{
+    height: 500px;
+}
+
+.about-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.head-text p{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.para-text {
+    margin: 32px 0px;
+}
+
+.para-text p {
+    font-family: "Manrope";
+    font-size: 16px;
+}
+
+.para-text span {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: italic;
+}
+
+.intro-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }

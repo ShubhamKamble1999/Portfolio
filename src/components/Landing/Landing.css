@@ -23,10 +23,15 @@
 }
 
 .landing-container{
-    height: 80vh;
-    background-color: #212121;
+    height: 100vh;
+    background-image: url('../../assets/images/background.jpg');
+    background-size: cover;
+    /* background-color: #212121; */
     /* background-color: yellow; */
-    padding: 64px 0px;
+    /* padding: 64px 0px; */
+    display: flex;
+    align-items: center;
+    
 }
 
 .header-text{

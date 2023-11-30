@@ -32,7 +32,7 @@ export const MyProject = () => {
             <div className="project-container">
                 <div className="container">
                     <div className="project-heading">
-                        <h1> My Project </h1>
+                        <span> My Projects </span>
                     </div>
                     <div className="row d-flex justify-content-center">
                         {cardData.map((element, index) => (

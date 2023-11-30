@@ -1,0 +1,69 @@
+.black-box{
+    padding: 32px 0px;
+    height: auto;
+    width: 100%;
+    background-color: #212428;
+}
+
+.header-block {
+    margin: 32px 0px;
+}
+
+.header-block h4{
+    color: white;
+}
+
+.card {
+    background-color: #212428;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(71, 71, 71);
+    transition: ease;
+    transition-delay: 0.0s;
+    transition-duration: 0.3s;
+    margin: 32px 0px;
+}
+
+.card:hover {
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0px 0px 10px rgb(61, 152, 202);
+}
+
+.card-elements{
+    padding: 16px;
+}
+
+.range-block{
+    margin: 32px 64px 8px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-block{
+    color: white;
+}
+
+.progress-bar{
+    margin: 0px 64px;
+}
+
+.rate-block{
+    color: white;
+}
+
+.bar{
+    width: 100%;
+    height: 8px;
+    border-radius: 32px;
+    background-color: whitesmoke;
+}
+
+.ra{
+    background-color: rgb(61, 152, 202);
+    height: 100%;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.black-row{
+    padding: 32px 0px;
+}
