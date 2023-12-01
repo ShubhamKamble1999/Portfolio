@@ -41,7 +41,7 @@ export const Skills = () => {
         <div className='black-box '>
             <div className="container ">
                 <div className="row black-row">
-                    <div className="col-5">
+                    <div className="col-lg-5 col-md-5 col-sm-12">
                         <div className="text-container">
                             <div className="header-block">
                                 <h4>Education</h4>
@@ -68,7 +68,7 @@ export const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-md-7 col-sm-12">
                         <Ratings elements={markers} />
                         {/* <div className="range-block">
                             <div className="detail-block">

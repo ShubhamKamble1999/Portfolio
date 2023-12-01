@@ -91,3 +91,19 @@
 .profile-image{
     height: 80%;
 }
+
+@media screen and (max-width:576px) and (min-width:300px) {
+
+    .landing-row{
+        /* padding: 32px 0px; */
+        height: auto;
+    }
+
+    .left-container span{
+        display: block;
+    }
+
+    .profile-image{
+        width: 80vw;
+    }
+}

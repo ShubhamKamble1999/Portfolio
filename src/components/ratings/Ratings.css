@@ -30,3 +30,15 @@
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
 }
+
+@media screen and (max-width:576px) and (min-width:300px) {
+    .range-block{
+        margin: 32px 16px 8px 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .progress-bar{
+        margin: 0px 32px;
+    }
+}

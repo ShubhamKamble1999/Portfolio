@@ -49,7 +49,7 @@ const Accordium = () => {
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             <div className="row">
-                                                <div className="col-lg-4">
+                                                <div className="col-lg-4 d-flex justify-content-center">
                                                     <div className="left-accor"></div>
                                                 </div>
                                                 <div className="col-lg-8">
